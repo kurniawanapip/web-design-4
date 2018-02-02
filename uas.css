@@ -1,0 +1,138 @@
+body {
+	margin : 0;
+	background-color: #eef3fa;
+}
+.kotak {
+	padding : 5px;
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+	height: 700px;
+}
+
+
+.header {
+	overflow: hidden;
+}
+.header1 {
+	height: 60px;
+	float: left;
+	width: 35%;
+}
+.header2 {
+	float: right;
+	height: 60px;
+	width: 18%;
+}
+
+
+.menu {
+	overflow: hidden;
+}
+.about a, .blog a, .portfolio a {
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1%;
+	float: left;
+	width: 18%;
+	height: 20px;
+	background-color: #D5C83C;
+	text-align: center;
+	color: black;
+	border-top : 4px solid black;
+	border-bottom : 4px solid black;
+}
+.home a {
+	border-top : 4px solid black;
+	border-bottom : 4px solid black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1%;
+	float: left;
+	width: 18%;
+	height: 20px;
+	background-color: #D5C83C;
+	text-align: center;
+	color: black;
+	border-radius: 10px 0px 0px 10px;
+	border-left: 4px solid black;
+}
+.contact a {
+	border-top : 4px solid black;
+	border-bottom : 4px solid black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1%;
+	float: left;
+	width: 17%;
+	height: 20px;
+	background-color: #D5C83C;
+	text-align: center;
+	color: black;
+	border-radius: 0px 10px 10px 0px;
+	border-right : 4px solid black;
+}
+.home a:hover, .about a:hover, .blog a:hover, .portfolio a:hover, .contact a:hover {
+	background-color: black;
+	color: white;
+}
+
+
+.isi {
+	overflow: hidden;
+	text-align: justify;
+	border-bottom:  2px dotted black;
+}
+.isi1 {
+	width: 32%;
+	float: left;
+	height: 160px;
+	padding: 1%;
+}
+.isi2 {
+	width: 30%;
+	float: left;
+	height: 160px;
+	padding: 1%;
+}
+.isi3 {
+	float: left;
+	padding: 1%;
+	width: 32%;
+	height: 160px;
+}
+
+
+.content {
+	overflow: hidden;
+	text-align: justify;
+}
+.content1 {
+	width: 67%;
+	height: 250px;
+	float: left;
+	padding: 1%;
+}
+.content2 {
+	width: 29%;
+	height: 250px;
+	float: left;
+	padding: 1%;
+}
+
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding-top: 1px;
+	height: 50px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+
+.bulat {
+	background-color: #E0DDD4;
+	border-radius: 15px;
+	margin-top: 10px;
+}
